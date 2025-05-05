@@ -8,7 +8,7 @@ import store from "./store/index";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <Provider sstore={store}>
+  <Provider store={store}>
     <App />
   </Provider>
 );
